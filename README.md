@@ -3,6 +3,8 @@
 
 Welcome! This repository documents my journey and contributions during my backend internship at Arkalogi. Below is a concise summary of all tasks assigned, my approach, and the technologies used.
 
+
+
 📌 Task 01: NIFTY50 Option Symbol Filtering (CSV)
 Objective:
 Extract and process options and futures data from the Zerodha instrument CSV.
@@ -16,6 +18,9 @@ Extract expiry (like 25JUL) by slicing (without regex).
 Sort each group by expiry and save as separate CSV.
 Tech Used: Python, Pandas
 Constraints: No regex, no AI tools, logic must be handcrafted.
+
+
+
 
 📌 Task 02: Trade PnL & Drawdown Analysis (JSON)
 Objective:
@@ -37,6 +42,8 @@ Win/loss summary
 Tech Used: Python, Pandas, JSON
 Output: result.csv
 
+
+
 📌 Task 03: ML-Based PnL Percentage Prediction (CSV)
 Objective:
 Predict PnL % using features like support/resistance distances and entry time.
@@ -51,6 +58,9 @@ XGBRegressor
 Evaluated model with RMSE and R² score
 Tech Used: Scikit-learn, XGBoost, Pandas, Matplotlib
 
+
+
+
 📌 Task 04: CSV to Python Dictionary Converter
 Objective:
 Convert any CSV to a structured Python dictionary for easy access.
@@ -59,6 +69,8 @@ Steps:
 Read the CSV row-by-row
 Construct nested dictionaries using keys like symbol → date → trade
 Tech Used: Python, Pandas
+
+
 
 📌 Task 05: Market Insight (SMA Based API)
 Objective:
@@ -76,6 +88,9 @@ Copy
 Edit
 { "above_sma": [...], "below_sma": [...] }
 Tech Used: Flask, Pandas, YFinance, HTML
+
+
+
 
 📌 Task 06: Service Selection Web App (Flask)
 Objective:
@@ -101,6 +116,9 @@ Return PnL and store result in CSV
 Display results in a frontend table
 Tech Used: Flask, Pandas, YFinance, Chart.js
 
+
+
+
 📌 Task 08: Recommendation Dashboard
 Objective:
 Create an interactive dashboard with multi-indicator strategy insights.
@@ -116,6 +134,8 @@ Visual charts using Chart.js
 Display confidence via gauge
 Show PnL trend chart
 Tech Used: Flask, Chart.js, Pandas, Custom Indicators
+
+
 
 📌 Task 09: API Validation & Security (Pydantic)
 Objective:
