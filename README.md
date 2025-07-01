@@ -1,4 +1,6 @@
 💼 Arkalogi Internship – Priyanshu Kumar
+
+
 Welcome! This repository documents my journey and contributions during my backend internship at Arkalogi. Below is a concise summary of all tasks assigned, my approach, and the technologies used.
 
 📌 Task 01: NIFTY50 Option Symbol Filtering (CSV)
